@@ -8,6 +8,7 @@ if [ $# -eq 1 ]; then
 	num=$@;
 fi
 echo $num;
+
 count=0;
 while [ $count -lt $num ]
 do
